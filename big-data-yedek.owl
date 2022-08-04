@@ -1,0 +1,1656 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/enesc/ontologies/2022/4/untitled-ontology-7"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/enesc/ontologies/2022/4/untitled-ontology-7">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#ASA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BALTA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BUYUCU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CUCE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ELF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HOBBIT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#INSAN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IRK"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISIM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KILIC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ORK"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SILAH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#YAY"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#YER"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dost"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dusman"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isim"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#kullanır"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#oldurur"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#yasar"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#AGE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ARAGORN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ARAGORNUN_KILICI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ARWEN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BILBO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BOROMIR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ELENDIL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ELROND"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EREBOR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FRODO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GANDALF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GANDALFIN_ASASI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GIMLI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GIMLININ_BALTASI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GOLLUM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GONDOR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISENGARD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISILDUR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISIM_ARAGORNÜ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISIM_ARWEN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISIM_BILBO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISIM_BOROMIR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISIM_ELENDIL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISIM_ELROND"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISIM_EREBOR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISIM_FRODO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISIM_GANDALF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISIM_GIMLI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISIM_GOLLUM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISIM_GONDOR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISIM_ISENGARD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISIM_ISILDIR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISIM_LEGOLAS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISIM_MERRY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISIM_MORDOR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISIM_PIPPIN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISIM_SAM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISIM_SARUMAN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISIM_SAURON"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LEGOLAS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LEGOLASIN_YAYI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MEERY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MORDOR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PIPPIN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SAM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SARUMAN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SAURON"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#THE_SHIRE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WOODLAND"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ASA"/>
+        <Class IRI="#SILAH"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BALTA"/>
+        <Class IRI="#SILAH"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BUYUCU"/>
+        <Class IRI="#IRK"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CUCE"/>
+        <Class IRI="#IRK"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ELF"/>
+        <Class IRI="#IRK"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HOBBIT"/>
+        <Class IRI="#IRK"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#INSAN"/>
+        <Class IRI="#IRK"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KILIC"/>
+        <Class IRI="#SILAH"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ORK"/>
+        <Class IRI="#IRK"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#YAY"/>
+        <Class IRI="#SILAH"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#INSAN"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KILIC"/>
+        <NamedIndividual IRI="#ARAGORNUN_KILICI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ELF"/>
+        <NamedIndividual IRI="#ARWEN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HOBBIT"/>
+        <NamedIndividual IRI="#BILBO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#INSAN"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#INSAN"/>
+        <NamedIndividual IRI="#ELENDIL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ELF"/>
+        <NamedIndividual IRI="#ELROND"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#YER"/>
+        <NamedIndividual IRI="#EREBOR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HOBBIT"/>
+        <NamedIndividual IRI="#FRODO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BUYUCU"/>
+        <NamedIndividual IRI="#GANDALF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ASA"/>
+        <NamedIndividual IRI="#GANDALFIN_ASASI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CUCE"/>
+        <NamedIndividual IRI="#GIMLI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BALTA"/>
+        <NamedIndividual IRI="#GIMLININ_BALTASI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#YER"/>
+        <NamedIndividual IRI="#GONDOR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#YER"/>
+        <NamedIndividual IRI="#ISENGARD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#INSAN"/>
+        <NamedIndividual IRI="#ISILDUR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISIM"/>
+        <NamedIndividual IRI="#ISIM_ARAGORNÜ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISIM"/>
+        <NamedIndividual IRI="#ISIM_ARWEN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISIM"/>
+        <NamedIndividual IRI="#ISIM_BILBO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISIM"/>
+        <NamedIndividual IRI="#ISIM_BOROMIR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISIM"/>
+        <NamedIndividual IRI="#ISIM_ELENDIL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISIM"/>
+        <NamedIndividual IRI="#ISIM_ELROND"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISIM"/>
+        <NamedIndividual IRI="#ISIM_EREBOR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISIM"/>
+        <NamedIndividual IRI="#ISIM_FRODO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISIM"/>
+        <NamedIndividual IRI="#ISIM_GANDALF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISIM"/>
+        <NamedIndividual IRI="#ISIM_GIMLI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISIM"/>
+        <NamedIndividual IRI="#ISIM_GOLLUM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISIM"/>
+        <NamedIndividual IRI="#ISIM_GONDOR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISIM"/>
+        <NamedIndividual IRI="#ISIM_ISENGARD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISIM"/>
+        <NamedIndividual IRI="#ISIM_ISILDIR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISIM"/>
+        <NamedIndividual IRI="#ISIM_LEGOLAS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISIM"/>
+        <NamedIndividual IRI="#ISIM_MERRY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISIM"/>
+        <NamedIndividual IRI="#ISIM_MORDOR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISIM"/>
+        <NamedIndividual IRI="#ISIM_PIPPIN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISIM"/>
+        <NamedIndividual IRI="#ISIM_SAM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISIM"/>
+        <NamedIndividual IRI="#ISIM_SARUMAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ISIM"/>
+        <NamedIndividual IRI="#ISIM_SAURON"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ELF"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#YAY"/>
+        <NamedIndividual IRI="#LEGOLASIN_YAYI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HOBBIT"/>
+        <NamedIndividual IRI="#MEERY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#YER"/>
+        <NamedIndividual IRI="#MORDOR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HOBBIT"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HOBBIT"/>
+        <NamedIndividual IRI="#SAM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BUYUCU"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BUYUCU"/>
+        <NamedIndividual IRI="#SAURON"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#YER"/>
+        <NamedIndividual IRI="#THE_SHIRE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#YER"/>
+        <NamedIndividual IRI="#WOODLAND"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+        <NamedIndividual IRI="#GIMLI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+        <NamedIndividual IRI="#SAM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+        <NamedIndividual IRI="#BILBO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+        <NamedIndividual IRI="#GANDALF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+        <NamedIndividual IRI="#MEERY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+        <NamedIndividual IRI="#FRODO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+        <NamedIndividual IRI="#SAURON"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isim"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#kullanır"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+        <NamedIndividual IRI="#ARAGORNUN_KILICI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ARWEN"/>
+        <NamedIndividual IRI="#MEERY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ARWEN"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ARWEN"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ARWEN"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ARWEN"/>
+        <NamedIndividual IRI="#ELROND"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ARWEN"/>
+        <NamedIndividual IRI="#GANDALF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ARWEN"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ARWEN"/>
+        <NamedIndividual IRI="#BILBO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ARWEN"/>
+        <NamedIndividual IRI="#GIMLI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ARWEN"/>
+        <NamedIndividual IRI="#SAM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ARWEN"/>
+        <NamedIndividual IRI="#FRODO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#ARWEN"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#ARWEN"/>
+        <NamedIndividual IRI="#SAURON"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isim"/>
+        <NamedIndividual IRI="#ARWEN"/>
+        <NamedIndividual IRI="#ISIM_ARWEN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#yasar"/>
+        <NamedIndividual IRI="#ARWEN"/>
+        <NamedIndividual IRI="#WOODLAND"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#BILBO"/>
+        <NamedIndividual IRI="#ELROND"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#BILBO"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#BILBO"/>
+        <NamedIndividual IRI="#FRODO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#BILBO"/>
+        <NamedIndividual IRI="#GANDALF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#BILBO"/>
+        <NamedIndividual IRI="#MEERY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#BILBO"/>
+        <NamedIndividual IRI="#GIMLI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#BILBO"/>
+        <NamedIndividual IRI="#SAM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#BILBO"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#BILBO"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#BILBO"/>
+        <NamedIndividual IRI="#ARWEN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#BILBO"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#BILBO"/>
+        <NamedIndividual IRI="#SAURON"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isim"/>
+        <NamedIndividual IRI="#BILBO"/>
+        <NamedIndividual IRI="#ISIM_BILBO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#yasar"/>
+        <NamedIndividual IRI="#BILBO"/>
+        <NamedIndividual IRI="#THE_SHIRE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+        <NamedIndividual IRI="#MEERY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+        <NamedIndividual IRI="#SAM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+        <NamedIndividual IRI="#GANDALF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+        <NamedIndividual IRI="#FRODO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+        <NamedIndividual IRI="#GIMLI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+        <NamedIndividual IRI="#ARWEN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+        <NamedIndividual IRI="#BILBO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+        <NamedIndividual IRI="#SAURON"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isim"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+        <NamedIndividual IRI="#ISIM_BOROMIR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#ELENDIL"/>
+        <NamedIndividual IRI="#SAURON"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isim"/>
+        <NamedIndividual IRI="#ELENDIL"/>
+        <NamedIndividual IRI="#ISIM_ELENDIL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ELROND"/>
+        <NamedIndividual IRI="#FRODO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ELROND"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ELROND"/>
+        <NamedIndividual IRI="#ARWEN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ELROND"/>
+        <NamedIndividual IRI="#SAM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ELROND"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ELROND"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ELROND"/>
+        <NamedIndividual IRI="#GIMLI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ELROND"/>
+        <NamedIndividual IRI="#BILBO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ELROND"/>
+        <NamedIndividual IRI="#GANDALF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ELROND"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#ELROND"/>
+        <NamedIndividual IRI="#MEERY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#ELROND"/>
+        <NamedIndividual IRI="#SAURON"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#ELROND"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isim"/>
+        <NamedIndividual IRI="#ELROND"/>
+        <NamedIndividual IRI="#ISIM_ELROND"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#yasar"/>
+        <NamedIndividual IRI="#ELROND"/>
+        <NamedIndividual IRI="#WOODLAND"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isim"/>
+        <NamedIndividual IRI="#EREBOR"/>
+        <NamedIndividual IRI="#ISIM_EREBOR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#FRODO"/>
+        <NamedIndividual IRI="#GIMLI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#FRODO"/>
+        <NamedIndividual IRI="#ELROND"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#FRODO"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#FRODO"/>
+        <NamedIndividual IRI="#BILBO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#FRODO"/>
+        <NamedIndividual IRI="#GANDALF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#FRODO"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#FRODO"/>
+        <NamedIndividual IRI="#ARWEN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#FRODO"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#FRODO"/>
+        <NamedIndividual IRI="#MEERY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#FRODO"/>
+        <NamedIndividual IRI="#SAM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#FRODO"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#FRODO"/>
+        <NamedIndividual IRI="#SAURON"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isim"/>
+        <NamedIndividual IRI="#FRODO"/>
+        <NamedIndividual IRI="#ISIM_FRODO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#yasar"/>
+        <NamedIndividual IRI="#FRODO"/>
+        <NamedIndividual IRI="#THE_SHIRE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#GANDALF"/>
+        <NamedIndividual IRI="#ARWEN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#GANDALF"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#GANDALF"/>
+        <NamedIndividual IRI="#FRODO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#GANDALF"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#GANDALF"/>
+        <NamedIndividual IRI="#MEERY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#GANDALF"/>
+        <NamedIndividual IRI="#SAM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#GANDALF"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#GANDALF"/>
+        <NamedIndividual IRI="#BILBO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#GANDALF"/>
+        <NamedIndividual IRI="#ELROND"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#GANDALF"/>
+        <NamedIndividual IRI="#GIMLI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#GANDALF"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#GANDALF"/>
+        <NamedIndividual IRI="#SAURON"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isim"/>
+        <NamedIndividual IRI="#GANDALF"/>
+        <NamedIndividual IRI="#ISIM_GANDALF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#kullanır"/>
+        <NamedIndividual IRI="#GANDALF"/>
+        <NamedIndividual IRI="#GANDALFIN_ASASI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#yasar"/>
+        <NamedIndividual IRI="#GANDALF"/>
+        <NamedIndividual IRI="#THE_SHIRE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#yasar"/>
+        <NamedIndividual IRI="#GANDALF"/>
+        <NamedIndividual IRI="#WOODLAND"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#GIMLI"/>
+        <NamedIndividual IRI="#ARWEN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#GIMLI"/>
+        <NamedIndividual IRI="#BILBO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#GIMLI"/>
+        <NamedIndividual IRI="#ELROND"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#GIMLI"/>
+        <NamedIndividual IRI="#SAM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#GIMLI"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#GIMLI"/>
+        <NamedIndividual IRI="#MEERY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#GIMLI"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#GIMLI"/>
+        <NamedIndividual IRI="#FRODO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#GIMLI"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#GIMLI"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#GIMLI"/>
+        <NamedIndividual IRI="#GANDALF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#GIMLI"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#GIMLI"/>
+        <NamedIndividual IRI="#SAURON"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isim"/>
+        <NamedIndividual IRI="#GIMLI"/>
+        <NamedIndividual IRI="#ISIM_GIMLI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#kullanır"/>
+        <NamedIndividual IRI="#GIMLI"/>
+        <NamedIndividual IRI="#GIMLININ_BALTASI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#yasar"/>
+        <NamedIndividual IRI="#GIMLI"/>
+        <NamedIndividual IRI="#EREBOR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isim"/>
+        <NamedIndividual IRI="#GOLLUM"/>
+        <NamedIndividual IRI="#ISIM_GOLLUM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#yasar"/>
+        <NamedIndividual IRI="#GONDOR"/>
+        <NamedIndividual IRI="#ISIM_GONDOR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isim"/>
+        <NamedIndividual IRI="#ISENGARD"/>
+        <NamedIndividual IRI="#ISIM_ISENGARD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#oldurur"/>
+        <NamedIndividual IRI="#ISILDUR"/>
+        <NamedIndividual IRI="#SAURON"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+        <NamedIndividual IRI="#GIMLI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+        <NamedIndividual IRI="#ELROND"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+        <NamedIndividual IRI="#MEERY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+        <NamedIndividual IRI="#SAM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+        <NamedIndividual IRI="#ARWEN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+        <NamedIndividual IRI="#FRODO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+        <NamedIndividual IRI="#GANDALF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+        <NamedIndividual IRI="#SAURON"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isim"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+        <NamedIndividual IRI="#ISIM_LEGOLAS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#kullanır"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+        <NamedIndividual IRI="#LEGOLASIN_YAYI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#yasar"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+        <NamedIndividual IRI="#WOODLAND"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#MEERY"/>
+        <NamedIndividual IRI="#GANDALF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#MEERY"/>
+        <NamedIndividual IRI="#BILBO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#MEERY"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#MEERY"/>
+        <NamedIndividual IRI="#ELROND"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#MEERY"/>
+        <NamedIndividual IRI="#GIMLI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#MEERY"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#MEERY"/>
+        <NamedIndividual IRI="#FRODO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#MEERY"/>
+        <NamedIndividual IRI="#ARWEN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#MEERY"/>
+        <NamedIndividual IRI="#SAM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#MEERY"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#MEERY"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#MEERY"/>
+        <NamedIndividual IRI="#SAURON"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#MEERY"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isim"/>
+        <NamedIndividual IRI="#MEERY"/>
+        <NamedIndividual IRI="#ISIM_MERRY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#yasar"/>
+        <NamedIndividual IRI="#MEERY"/>
+        <NamedIndividual IRI="#THE_SHIRE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isim"/>
+        <NamedIndividual IRI="#MORDOR"/>
+        <NamedIndividual IRI="#MORDOR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+        <NamedIndividual IRI="#ARWEN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+        <NamedIndividual IRI="#SAM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+        <NamedIndividual IRI="#GIMLI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+        <NamedIndividual IRI="#GANDALF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+        <NamedIndividual IRI="#ELROND"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+        <NamedIndividual IRI="#BILBO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+        <NamedIndividual IRI="#MEERY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+        <NamedIndividual IRI="#FRODO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+        <NamedIndividual IRI="#SAURON"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isim"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+        <NamedIndividual IRI="#ISIM_PIPPIN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#yasar"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+        <NamedIndividual IRI="#THE_SHIRE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#SAM"/>
+        <NamedIndividual IRI="#ELROND"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#SAM"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#SAM"/>
+        <NamedIndividual IRI="#GANDALF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#SAM"/>
+        <NamedIndividual IRI="#BILBO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#SAM"/>
+        <NamedIndividual IRI="#GIMLI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#SAM"/>
+        <NamedIndividual IRI="#FRODO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#SAM"/>
+        <NamedIndividual IRI="#ARWEN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#SAM"/>
+        <NamedIndividual IRI="#MEERY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#SAM"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#SAM"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#SAM"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SAM"/>
+        <NamedIndividual IRI="#SAURON"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SAM"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isim"/>
+        <NamedIndividual IRI="#SAM"/>
+        <NamedIndividual IRI="#ISIM_SAM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#yasar"/>
+        <NamedIndividual IRI="#SAM"/>
+        <NamedIndividual IRI="#THE_SHIRE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+        <NamedIndividual IRI="#SAURON"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+        <NamedIndividual IRI="#GANDALF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+        <NamedIndividual IRI="#MEERY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+        <NamedIndividual IRI="#BILBO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+        <NamedIndividual IRI="#ARWEN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+        <NamedIndividual IRI="#ELROND"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+        <NamedIndividual IRI="#GIMLI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+        <NamedIndividual IRI="#FRODO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+        <NamedIndividual IRI="#ISILDUR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+        <NamedIndividual IRI="#SAM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isim"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+        <NamedIndividual IRI="#ISIM_SARUMAN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#kullanır"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+        <NamedIndividual IRI="#GANDALFIN_ASASI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#yasar"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+        <NamedIndividual IRI="#ISENGARD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dost"/>
+        <NamedIndividual IRI="#SAURON"/>
+        <NamedIndividual IRI="#SARUMAN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SAURON"/>
+        <NamedIndividual IRI="#FRODO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SAURON"/>
+        <NamedIndividual IRI="#MEERY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SAURON"/>
+        <NamedIndividual IRI="#BILBO"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SAURON"/>
+        <NamedIndividual IRI="#LEGOLAS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SAURON"/>
+        <NamedIndividual IRI="#ISILDUR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SAURON"/>
+        <NamedIndividual IRI="#SAM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SAURON"/>
+        <NamedIndividual IRI="#PIPPIN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SAURON"/>
+        <NamedIndividual IRI="#GIMLI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SAURON"/>
+        <NamedIndividual IRI="#GANDALF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SAURON"/>
+        <NamedIndividual IRI="#ELROND"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SAURON"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SAURON"/>
+        <NamedIndividual IRI="#ARWEN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dusman"/>
+        <NamedIndividual IRI="#SAURON"/>
+        <NamedIndividual IRI="#ARAGORN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isim"/>
+        <NamedIndividual IRI="#SAURON"/>
+        <NamedIndividual IRI="#ISIM_SAURON"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#yasar"/>
+        <NamedIndividual IRI="#SAURON"/>
+        <NamedIndividual IRI="#GONDOR"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#AGE"/>
+        <NamedIndividual IRI="#BILBO"/>
+        <Literal datatypeIRI="&xsd;int">111</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#AGE"/>
+        <NamedIndividual IRI="#BOROMIR"/>
+        <Literal datatypeIRI="&xsd;int">45</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dost"/>
+        <Class IRI="#IRK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dusman"/>
+        <Class IRI="#IRK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isim"/>
+        <Class IRI="#IRK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isim"/>
+        <Class IRI="#YER"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#kullanır"/>
+        <Class IRI="#IRK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#oldurur"/>
+        <Class IRI="#IRK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#yasar"/>
+        <Class IRI="#IRK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dost"/>
+        <Class IRI="#IRK"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dusman"/>
+        <Class IRI="#IRK"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isim"/>
+        <Class IRI="#ISIM"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#kullanır"/>
+        <Class IRI="#SILAH"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#oldurur"/>
+        <Class IRI="#IRK"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#yasar"/>
+        <Class IRI="#YER"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#AGE"/>
+        <Class IRI="#IRK"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#AGE"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AGE</IRI>
+        <Literal datatypeIRI="&xsd;int">KARAKTERLERIN YASI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IRK</IRI>
+        <Literal datatypeIRI="&xsd;string">IRKLAR
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SILAH</IRI>
+        <Literal datatypeIRI="&xsd;string">SILAH
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#YER</IRI>
+        <Literal datatypeIRI="&xsd;string">YERLER</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">MUHAMMED ENES ŞAHİN
+MAHMUT CAN DURAK
+BEYZANUR TETİK
+GÖRKEM ERCAN
+BÜŞRA GÜLEÇ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">LORD OF RINGS ONTOLOGY
+</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
